@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "questionNumber": 1,
+      "title": "How much would you spend on this app?",
+      "choices": ["£100", "£2.5k", "£3M"]
+    },
+    {
+      "questionNumber": 2,
+      "title": "What do you think about this app?",
+      "choices": ["Love it!", "It's Alright", "I hate it!"]
+    },
+    {
+      "questionNumber": 3,
+      "title": "What do you think about this app?",
+      "choices": ["Love it!", "It's Alright", "I hate it!"]
+    }
+  ]
+}
