@@ -8,8 +8,8 @@ class GetAllQuestions{
 
   final QuizRepository _repository;
 
-  List<Question> getAllQuestions(){
-    final list = _repository.getAllQuestions();
+  Future<List<Question>> getAllQuestions() async {
+    final list = await _repository.getAllQuestions();
     return list;
   } 
 }

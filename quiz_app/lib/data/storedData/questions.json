@@ -13,7 +13,11 @@
     {
       "questionNumber": 3,
       "title": "What do you think about this app?",
-      "choices": ["Love it!", "It's Alright", "I hate it!"]
+      "choices": ["Love it!", "It's Alright", "I hate it!"],
+      "extraInformation": [{
+        "title": "blah blah title",
+        "informationBody": "blah blah body"
+      }]
     }
   ]
 }

@@ -23,5 +23,5 @@ class DefinitionDTO extends Definition {
   
   factory DefinitionDTO.fromDefinition(Definition definition) => DefinitionDTO(title: definition.title, informationBody: definition.informationBody, images: definition.images);
 
-  Map<String, dynamic> toMap() => {'title': title, 'informationBody': informationBody, 'images': images != null ? [] : List<ImageObject>.from(images.map((e) => ImageDTO.fromImage(e).toMap())) };
+  Map<String, dynamic> toMap() => {'title': title, 'informationBody': informationBody, 'images': List<ImageObject>.from(images.map((e) => ImageDTO.fromImage(e).toMap())) };
 }

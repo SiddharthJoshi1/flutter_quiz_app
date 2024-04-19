@@ -21,7 +21,7 @@ class QuestionDTO extends Question {
       extraInformation: json["extraInformation"] == null
           ? []
           : List<DefinitionDTO>.from(
-              json["extraInformation"]!.map((x) => DefinitionDTO.fromMap(x))));
+              json["extraInformation"].map((x) => DefinitionDTO.fromMap(x))));
 
 
   Map<String, dynamic> toMap() => {
